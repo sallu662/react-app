@@ -1,16 +1,22 @@
 import React from "react";
 
-
-const Header = () =>{
-return(
-
+const Header = () => {
+  return (
     <>
-       <h1>Hello! Hasan Khan</h1>
+      <nav class="navbar bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            Navbar
+          </a>
+        </div>
+      </nav>
+      <nav class="navbar bg-light">
+        <div class="container-fluid">
+          <span class="navbar-brand mb-0 h1">Navbar</span>
+        </div>
+      </nav>
     </>
-
-
-);
-
+  );
 };
 
 export default Header;
